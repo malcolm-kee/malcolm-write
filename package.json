@@ -9,6 +9,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/netlify": "^0.4.6",
     "@astrojs/partytown": "^0.1.5",
     "@astrojs/preact": "^0.2.0",
     "@astrojs/react": "^0.2.0",

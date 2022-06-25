@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/netlify': ^0.4.6
   '@astrojs/partytown': ^0.1.5
   '@astrojs/preact': ^0.2.0
   '@astrojs/react': ^0.2.0
@@ -15,6 +16,7 @@ dependencies:
   preact: 10.8.2
 
 devDependencies:
+  '@astrojs/netlify': 0.4.6
   '@astrojs/partytown': 0.1.5
   '@astrojs/preact': 0.2.0_preact@10.8.2
   '@astrojs/react': 0.2.0_biqbaboplfbrettd7655fr4n2y
@@ -99,6 +101,13 @@ packages:
       micromark-util-types: 1.0.2
       uvu: 0.5.4
       vfile-message: 3.1.2
+    dev: true
+
+  /@astrojs/netlify/0.4.6:
+    resolution: {integrity: sha512-ABKe9pB3lHx6r/FHdBdG8euCmVq7eN183wJNQ5kT3Ax9fYkndWMVgzAsdQp9tX7VgKuKNa4BgxSPKjl9YzRM1w==}
+    dependencies:
+      '@astrojs/webapi': 0.12.0
+      esbuild: 0.14.47
     dev: true
 
   /@astrojs/partytown/0.1.5:
@@ -2997,7 +3006,6 @@ packages:
 
   /preact/10.8.2:
     resolution: {integrity: sha512-AKGt0BsDSiAYzVS78jZ9qRwuorY2CoSZtf1iOC6gLb/3QyZt+fLT09aYJBjRc/BEcRc4j+j3ggERMdNE43i1LQ==}
-    dev: false
 
   /preferred-pm/3.0.3:
     resolution: {integrity: sha512-+wZgbxNES/KlJs9q40F/1sfOd/j7f1O9JaHcW5Dsn3aUUOZg3L2bjpVUcKV2jvtElYfoTuQiNeMfQJ4kwUAhCQ==}
