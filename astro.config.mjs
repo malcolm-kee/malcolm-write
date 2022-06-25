@@ -8,5 +8,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://malcolm-write.netlify.app',
   integrations: [preact(), react(), tailwind(), partytown(), sitemap()]
 });

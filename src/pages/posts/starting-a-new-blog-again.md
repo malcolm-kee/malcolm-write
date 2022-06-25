@@ -2,7 +2,7 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 title: Starting a New Blog (Again)
-publishDate: 25 Jun 2022
+pubDate: 25 Jun 2022
 ---
 
 It's been a while that I write.
