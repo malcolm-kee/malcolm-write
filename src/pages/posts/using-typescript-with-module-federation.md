@@ -4,6 +4,7 @@ setup: |
   import Aside from '../../components/Aside.tsx'
 title: Using TypeScript with Module Federation
 pubDate: 1 Jul 2022
+description: How to use TypeScript in Module Federation without overengineering
 ---
 
 [Module Federation](https://webpack.js.org/concepts/module-federation/) of webpack is a powerful tool to support microfrontend architecture. It allows code from multiple webpack builds to be stitched together seamlessly **in runtime** as if they are within the same codebase.

@@ -5,8 +5,11 @@ export interface Props {
 	title?: string;
 	description: string;
 	permalink?: string;
+	date?: string
 }
-const { title = 'Malcolm Writes', description, permalink = 'https://malcolm-write.netlify.app/' } = Astro.props;
+const { title = 'Malcolm Writes', description, permalink = 'https://malcolm-write.netlify.app/', date } = Astro.props;
+
+const ogImage = `https://malcolm-writes-og-image.vercel.app/${title}.png${date && `?date=${date}`}`
 ---
 
 <!-- Global Metadata -->
@@ -24,14 +27,14 @@ const { title = 'Malcolm Writes', description, permalink = 'https://malcolm-writ
 <meta property="og:url" content={permalink} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content="https://astro.build/social.png?v=1" />
+<meta property="og:image" content={ogImage} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={permalink} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content="https://astro.build/social.png?v=1" />
+<meta property="twitter:image" content={ogImage} />
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com" />
