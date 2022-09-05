@@ -9,7 +9,8 @@
     "resolveJsonModule": true,
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
-    // Add type definitions for our Vite runtime.
-    "types": ["vite/client"]
+    "noEmit": true,
+    "importsNotUsedAsValues": "error",
+    "types": ["astro/client"]
   }
 }
