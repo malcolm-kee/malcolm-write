@@ -9,3 +9,9 @@
   to = "https://malcolmkee.com/blog/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/"
+  to = "https://malcolmkee.com/blog/"
+  status = 301
+  force = true
